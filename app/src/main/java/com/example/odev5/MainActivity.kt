@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Odev5Theme {
-            HesapMakinesi()
+                 HesapMakinesi()
             }
         }
     }

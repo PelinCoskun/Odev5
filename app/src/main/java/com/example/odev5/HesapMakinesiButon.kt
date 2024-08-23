@@ -12,7 +12,7 @@ fun HesapMakinesiButon(metin: String, onClick: () -> Unit) {
         onClick = onClick,
         modifier = Modifier
             .padding(5.dp)
-            .size(90.dp) // Adjust size as needed
+            .size(90.dp)
     ) {
         Text(metin)
     }
